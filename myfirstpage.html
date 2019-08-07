@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>My first page</title> <!-- ชื่อที่แสดงอยู่บน menu bar-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <!-- ทำให้สามารถ encoding ภาษาไทยได้ -->
+	<head>
+	<body>
+		<h1 style="text-align:center;">Welcome to my first page</h1>
+		<img src="images/kanda-sep-2018.jpg" alt="profile pic"
+             width="20%"> <!--นำรูปภาพเข้ามา กำหนดขนาดของรูปภาพและกำหนดข้อความกรณีที่ไม่พบไฟล์รูปภาพ-->
+		<p>My name is Kanda Saikaew. I'm an associate professor at 
+			<a href="http://gear.kku.ac.th/">Department of Computer Engineering</a><!--เมื่อคลิก link จะทำไปยัง link ในหน้าเดียวกัน-->
+			<a href="http://www.en.kku.ac.th/" target="_blank">Faculty of Engineering</a> <!--เมื่อคลิก link จะทำให้เกิด new tabs ขึ้นมา-->
+			<a href="http://www.kku.ac.th/" target="_blank">Khon Kaen University</a>
+			These are <a href="#favorite">my favorite quotes</a>.I'm currently teaching <a href="#course">these courses</a>
+		</p>
+		<h2 id="course">My courses</h2><!--กำหนด id เพื่อให้สามารถคลิก link มาหาได้-->
+		<table border="0"><!--ทำให้ไม่มีเส้นของตาราง-->
+		<tr>
+			<th>Course ID</th><th>Course Name</th>
+		</tr>
+		<tr>
+			<td>EN811301</td><td>Advanced Computer Programming<td>
+		</tr>
+		<tr>
+			<td>EN811302</td><td>Advanced Computer Programming Laboratory<td>
+		</tr>
+		<tr>
+			<td>EN842300</td><td>Interactive Web Programming<td>
+		</tr>
+        <tr>
+            <td>198372</td><td>Wireless Devices Programming</td>
+        </tr>
+		</table>
+		<h2 id="favorite">My favorite quotes</h2>
+			<ul>
+                <li><font color="green"><b>"The true meaning of life is to plant trees, under whose shade you do not expect to sit."</b></font> -<font color="orange">Nelson Henderson</font></li>
+                <li><font color="green"><b>"ชีวิตที่ดีที่สุดคือสงบ เย็น และเป็นประโยชน์"</b></font> <font color="orange">-ท่านพุทธทาสภิกขุ</font></li>
+			</ul>
+		<h2>Your comment is welcome</h2>
+		<form action="#" method="post">
+			What do you think about this lab?<br>
+		<textarea name="textComment" rows="10" cols="30"></textarea><br>
+		<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>
